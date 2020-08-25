@@ -103,15 +103,6 @@ require_once('sidebar.php');
     }
 </style>
 <div class="content">
-    <?php
-    if ($database->connection) {
-        $sql = "insert into  `users` (`username`,`password`,`first_name`,`last_name`) values ('amir2','321','amir2','hormozi2')";
-
-        $result = $database->query($sql);
-//        $user = mysqli_fetch_array($result);
-//        echo $user['username'];
-    }
-    ?>
     <div class="middle"><!-- start middle -->
         <h1 class="title-box">داشبورد</h1>
         <div class="tab-box"><!-- start tab-box -->
@@ -122,6 +113,20 @@ require_once('sidebar.php');
             </Ul>
             <div class="tab-content"> <!-- start tab-content -->
                 <section class="section block">
+                    <?php
+                    if ($database->connection) {
+
+//                        $users=User::find_all_user();
+//                        while ($rows = mysqli_fetch_array($users))
+//                        {
+//                            echo $rows['username']."<br/>";
+//                        }
+
+                        $user = User::find_user_by_id(2);
+                        echo $user["username"];
+                    }
+                    ?>
+
 
                     <div class="sitevisits">
                         <span class="txt">تعداد بازدید سایت</span>
