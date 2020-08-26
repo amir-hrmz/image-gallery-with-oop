@@ -113,25 +113,6 @@ require_once('sidebar.php');
             </Ul>
             <div class="tab-content"> <!-- start tab-content -->
                 <section class="section block">
-                    <?php
-                    if ($database->connection) {
-
-                        $users=User::find_all_user();
-
-                        while ($rows = mysqli_fetch_array($users)){
-                            echo $rows["username"]."<br>";
-                        }
-
-//                        $users=User::find_all_user();
-//                        while ($rows = mysqli_fetch_array($users))
-//                        {
-//                            echo $rows['username']."<br/>";
-//                        }
-
-                        $user = User::find_user_by_id(2);
-                        echo $user["username"];
-                    }
-                    ?>
 
 
                     <div class="sitevisits">
@@ -153,9 +134,16 @@ require_once('sidebar.php');
                         <span class="number"></span>
                     </div>
 
-
+                    <?php
+                    if ($database->connection) {
+                        $found_user = $User->find_user_by_id(1);
+                        $user = $User->instantiation($found_user);
+                        echo "نام کاربری:".$user->username;
+                    }
+                    ?>
                 </section>
                 <section class="section">
+
                     <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
                 </section>
                 <section class="section">3</section>

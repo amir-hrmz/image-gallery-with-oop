@@ -2,21 +2,39 @@
 
 class User
 {
-    public static function find_all_user()
+    public $id;
+    public $username;
+    public $password;
+    public $first_name;
+    public $last_name;
+
+    public function find_all_user()
     {
 
-        return self::find_this_query("select * from `users`");
+        return $this->find_this_query("select * from `users`");
     }
-    public static function find_user_by_id($user_id)
+    public function find_user_by_id($user_id)
     {
-        $result = self::find_this_query("select * from `users` where `id`=$user_id");
+        $result = $this->find_this_query("select * from `users` where `id`=$user_id");
         $row= mysqli_fetch_array($result);
         return $row;
     }
-    public static function find_this_query($sql)
+    public function find_this_query($sql)
     {
         global $database;
         $result=$database->query($sql);
         return $result;
     }
+
+    public function instantiation($the_record)
+    {
+        $user = new $this;
+        $user->id = $the_record['id'];
+        $user->username = $the_record['username'];
+        $user->password = $the_record['password'];
+        $user->first_name = $the_record['first_name'];
+        $user->last_name = $the_record['last_name'];
+        return $user;
+    }
 }
+$User=new User();
