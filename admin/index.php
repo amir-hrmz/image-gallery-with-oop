@@ -116,6 +116,12 @@ require_once('sidebar.php');
                     <?php
                     if ($database->connection) {
 
+                        $users=User::find_all_user();
+
+                        while ($rows = mysqli_fetch_array($users)){
+                            echo $rows["username"]."<br>";
+                        }
+
 //                        $users=User::find_all_user();
 //                        while ($rows = mysqli_fetch_array($users))
 //                        {
