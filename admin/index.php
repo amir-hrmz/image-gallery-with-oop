@@ -1,5 +1,4 @@
 <?php
-require_once('includes/init.php');
 require_once('header.php');
 require_once('sidebar.php');
 ?>
@@ -133,14 +132,45 @@ require_once('sidebar.php');
                         <span class="txt">تعداد کل عکس ها</span>
                         <span class="number"></span>
                     </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+
+
+
+
+
 
                     <?php
                     if ($database->connection) {
-                        $found_user = $User->find_user_by_id(1);
-                        $user = $User->instantiation($found_user);
-                        echo "نام کاربری:".$user->username;
+//                        $user = $User->find_all_user();
+//                        foreach ($user as $user)
+//                        {
+//                            echo "نام کاربری:".$user->username."<br>";
+//
+//                        }
+
+
+//                        $user=$User->find_user_by_id(1);
+//                        echo $user->username."--".$user->last_name;
+
+                            $comments= new User();
+
+
                     }
                     ?>
+
+
+
+
+
+
+
+
+
                 </section>
                 <section class="section">
 

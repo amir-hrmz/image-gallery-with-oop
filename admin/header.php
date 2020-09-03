@@ -1,3 +1,11 @@
+<?php
+require_once('includes/init.php');
+if (!$session->is_signed_id())
+{
+    header("Location:../index.php");
+
+}
+?>
 <!doctype html>
 <html lang="fa">
 <head>

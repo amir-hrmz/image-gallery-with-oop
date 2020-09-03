@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dee4ad6d-8427-4675-bfa4-540cb231c937" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/init.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
     </list>
@@ -31,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -56,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1598183826989</updated>
       <workItem from="1598183828987" duration="8018000" />
-      <workItem from="1598203730563" duration="23304000" />
+      <workItem from="1598203730563" duration="51127000" />
     </task>
     <servers />
   </component>
@@ -80,22 +81,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040/1920.8.1360.728@0.0.1920.1040" timestamp="1598258478573" />
-    <state x="795" y="438" key="NewPhpFileDialog" timestamp="1598194961562">
+    <state x="747" y="317" key="NewPhpClassDialog" timestamp="1599123875591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="795" y="438" key="NewPhpFileDialog/0.0.1920.1040/1920.8.1360.728@0.0.1920.1040" timestamp="1598194961562" />
-    <state x="719" y="93" key="SettingsEditor" timestamp="1598296400558">
+    <state x="747" y="317" key="NewPhpClassDialog/0.0.1920.1040/1920.8.1360.728@0.0.1920.1040" timestamp="1599123875591" />
+    <state x="795" y="438" key="NewPhpFileDialog" timestamp="1599125339791">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="719" y="93" key="SettingsEditor/0.0.1920.1040/1920.8.1360.728@0.0.1920.1040" timestamp="1598296400558" />
+    <state x="795" y="438" key="NewPhpFileDialog/0.0.1920.1040/1920.8.1360.728@0.0.1920.1040" timestamp="1599125339791" />
+    <state x="719" y="93" key="SettingsEditor" timestamp="1598894126059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="719" y="93" key="SettingsEditor/0.0.1920.1040/1920.8.1360.728@0.0.1920.1040" timestamp="1598894126059" />
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog" timestamp="1598364563980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="ShowDiffWithBranchDialog/0.0.1920.1040/1920.8.1360.728@0.0.1920.1040" timestamp="1598364563980" />
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2" timestamp="1598945474497">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="248" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.8.1360.728@0.0.1920.1040" timestamp="1598945474497" />
     <state x="636" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1598203749220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.8.1360.728@0.0.1920.1040" timestamp="1598203749220" />
+    <state x="767" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599141347983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="767" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.8.1360.728@0.0.1920.1040" timestamp="1599141347983" />
     <state x="701" y="157" key="refactoring.ChangeSignatureDialog" timestamp="1598365899326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
